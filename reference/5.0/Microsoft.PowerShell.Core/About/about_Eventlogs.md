@@ -175,9 +175,10 @@ The Turn On Module Logging group policy setting is located in the following
 Group Policy paths:
 
 Computer Configuration\Administrative Templates\Windows Components\Windows PowerShell
+
 User Configuration\Administrative Templates\Windows Components\Windows PowerShell
 
-The User Configuration policy takes precedence over the Computer Configuration policy,
+The Computer Configuration policy takes precedence over the User Configuration policy,
 and both policies take preference over the value of the LogPipelineExecutionDetails
 property of modules and snap-ins.
 
